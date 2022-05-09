@@ -21,7 +21,10 @@ class AdditionalInfo extends StatelessWidget {
                     title: 'Change Language', leadingIcon: Icons.font_download),
                 ListTileWidget(
                     title: 'WhatsApp Chat Support',
-                    leadingIcon: Icons.chat_bubble),
+                    leadingIcon: Icons.whatsapp),
+                ListTileWidget(
+                    title: 'Privacy Policy', leadingIcon: Icons.lock),
+                ListTileWidget(title: 'Sign Out', leadingIcon: Icons.logout),
               ],
             ),
           ),
