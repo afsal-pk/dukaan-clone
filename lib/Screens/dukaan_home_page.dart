@@ -24,7 +24,6 @@ class _DukaanHomePageState extends State<DukaanHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[300],
       body: screens[navIndex],
       bottomNavigationBar: BottomNavigationBar(
         onTap: (index) => setState(() => navIndex = index),
@@ -42,9 +41,8 @@ class _DukaanHomePageState extends State<DukaanHomePage> {
               ),
               label: 'Orders'),
           BottomNavigationBarItem(
-              icon: Icon(Icons.dashboard), label: 'Products'),
-          BottomNavigationBarItem(
-              icon: Icon(Icons.auto_awesome_motion), label: 'Manage'),
+              icon: Icon(Icons.grid_view_rounded), label: 'Products'),
+          BottomNavigationBarItem(icon: Icon(Icons.layers), label: 'Manage'),
           BottomNavigationBarItem(
               icon: Icon(Icons.person_outline), label: 'Account'),
         ],
